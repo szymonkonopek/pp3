@@ -33,5 +33,8 @@ public class Task17 {
     public static void main (String args[]){
         Counter counter1 = new Counter(23);
         Counter counter2 = new Counter(-47);
+
+        System.out.println(counter1.time);
+        System.out.println(counter2.time);
     }
 }

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=SurfaceArea
+comment1.params=radious
+comment1.target=void\ surfaceArea(int)
+comment2.params=heigth\ length
+comment2.target=void\ surfaceArea(int,\ int)
+comment3.params=base\ heigth
+comment3.target=void\ surfaceAreaTriangle(int,\ int)
+numComments=4
