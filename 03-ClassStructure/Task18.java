@@ -12,7 +12,8 @@ public class Task18 {
             this.studentName = name;
             this.grades = new double[numberOfGrades];
             for (int index= 0; index < numberOfGrades; index ++){
-                this.grades[index] = Math.round(Math.random() * (5.5 - 2.0) + 2.0);
+                int randInt = (int) (Math.random() * 7);
+                this.grades[index] = 2.0 + Math.round(randInt) / 2.0;
             }
         }
 
