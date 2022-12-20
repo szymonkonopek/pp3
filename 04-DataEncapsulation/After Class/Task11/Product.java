@@ -1,25 +1,20 @@
 public class Product {
     String productName;
     Boolean isVegetarian;
-
-    Product (String productName, Boolean isVegetarian){
+    public String getProductName() {
+        return productName;
+    }
+    public void setProductName(String productName) {
         this.productName = productName;
+    }
+    public Boolean getIsVegetarian() {
+        return isVegetarian;
+    }
+    public void setIsVegetarian(Boolean isVegetarian) {
         this.isVegetarian = isVegetarian;
     }
-
-    void setProductName(String newProductName){
-        this.productName = newProductName;
-    }
-
-    void setIsVegetarian(Boolean newIsVegetarian){
-        this.isVegetarian = newIsVegetarian;
-    }
-
-    String getProductName(){
-        return this.productName;
-    }
-
-    Boolean getIsVegetarian(){
-        return this.isVegetarian;
+    public Product(String productName, Boolean isVegetarian) {
+        this.productName = productName;
+        this.isVegetarian = isVegetarian;
     }
 }
