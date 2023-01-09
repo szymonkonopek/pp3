@@ -1,5 +1,7 @@
-public class Numbers implements Ok{
+interface Ok { boolean ok(); }
 
+public class Numbers implements Ok{
+    
     int[] array;
 
     public Numbers(int[] array) {
@@ -19,7 +21,7 @@ public class Numbers implements Ok{
         int[] myArr = {6,7,6,1,4};
         Numbers n = new Numbers(myArr);
         System.out.println(n.ok());
-        
+
         int[] myArr2 = {2,5,2,8,4};
         Numbers n2 = new Numbers(myArr2);
         System.out.println(n2.ok());
