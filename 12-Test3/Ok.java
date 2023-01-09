@@ -1,0 +1,1 @@
+interface Ok { boolean ok(); }

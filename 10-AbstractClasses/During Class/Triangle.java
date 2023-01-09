@@ -10,7 +10,7 @@ public class Triangle extends Shape{
     }
 
     @Override
-    public float area() {
+    public float area() { {
         float p = (a + b + c)/2;
         float s = (float) Math.sqrt(p * (p - a) * (p - b) * (p - c));
         return s;        
@@ -21,3 +21,4 @@ public class Triangle extends Shape{
         return a + b + c;
     }
 }
+
